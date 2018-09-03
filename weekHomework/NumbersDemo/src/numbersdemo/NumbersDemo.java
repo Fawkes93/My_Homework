@@ -1,21 +1,34 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package numbersdemo;
-
-/**
- *
- * @author igor
- */
+ 
 public class NumbersDemo {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+
+    
+    
+    static void displayNumberSquared() {
+    
+    }
+
+    public static void main(String[] args) {
+        
+        int a = 10;
+        int b = 15;
+        displayTwiceTheNumber(a,b);
+    }
+    static void displayTwiceTheNumber(int a, int b) {
+    System.out.println(a);
+    System.out.println(a);
+    System.out.println(b);
+    System.out.println(b);
+    }
+    static void displayTheNumberPlusFive(){
+    
+    }
+   
 }
+//1. Create an application named NumbersDemo whose main() method holds two integer 
+//variables. Assign values to the variables. In turn, pass each value to methods 
+//named displayTwiceTheNumber(), displayNumberPlusFive(), and displayNumberSquared(). 
+//Create each method to perform the task its name implies.
+ 
