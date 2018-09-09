@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Fundraiser {
 
     public static void main(String[] args) {
-        int adultMeal =0;
-        int childMeal =0;
+        int adultMeal = 0;
+        int childMeal = 0;
         int total;
 
         Scanner input = new Scanner(System.in);
@@ -17,8 +17,8 @@ public class Fundraiser {
             System.out.println("and how many child's meals would you like?");
             childMeal = input.nextInt() * 4;
             System.out.println("Great, heres your cheque!");
-            System.out.println("Adult meals .......... $ " + adultMeal );
-            System.out.println("Child meals .......... $ " + childMeal );
+            System.out.println("Adult meals .......... $ " + adultMeal);
+            System.out.println("Child meals .......... $ " + childMeal);
             System.out.println("Grand total: $" + (total = childMeal + adultMeal));
             break;
         }

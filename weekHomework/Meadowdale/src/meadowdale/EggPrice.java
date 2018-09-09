@@ -15,11 +15,11 @@ public class EggPrice {
             dozen = eggs / 12;
             double total = dozen * 3.45 + looseEggs * 0.45;
             System.out.println("\nThat's " + dozen + " dozen at $3.25 per dozen and " + looseEggs
-                    + " loose eggs at 45 cents each" + "for a total of" + total);
+                    + " loose eggs at 45 cents each" + "for a total of " + total);
             System.out.printf(" for a total of $%.2f", total, "\n");
         } else if (eggs > 0) {
             double total2 = eggs * 0.45;
-            System.out.println("That's " + eggs + " eggs at 45 cents each for a total of $" + total2);
+            System.out.println("That's " + eggs + " eggs at 45 cents each - for a total of $ " + total2);
         } else {
             System.out.println("Maybe you want my balls instead?");
         }
